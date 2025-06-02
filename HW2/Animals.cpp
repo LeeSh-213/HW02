@@ -4,17 +4,17 @@
 #include "Animals.h"
 using namespace std;
 
-int main() {
-	Dog d;
+int main() {  
+	Dog d; // Dog, Cat, Cow 객체를 생성
 	Cat c;
 	Cow co;
-	Zoo zoo;
+	Zoo zoo; // Zoo 객체를 생성
 
 	zoo.addAnimal(new Dog());
 	zoo.addAnimal(new Cat());
 	zoo.addAnimal(new Cow()); // Zoo에 Dog, Cat, Cow 객체를 추가
 
-	zoo.performActions(); 
+	zoo.performActions();  //
 
 	return 0;
 }
