@@ -44,7 +44,6 @@ private:
     Animal* animals[10]; 
     int animalCount = 0;
 public:
-    
     void addAnimal(Animal* animal) {
         if (animalCount < 10)
         {
